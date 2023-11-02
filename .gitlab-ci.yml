@@ -1,0 +1,23 @@
+image: node:alpine
+
+mirror:
+    before_script:
+        - "which ssh-agent || (apk update && apk openssh-client git)"
+
+    script:
+        - eval $(ssh-agent -s)
+        - echo "$GH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
+        - mkdir -p ~/.ssh
+        - chmod 700 ~/.ssh
+        - echo "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
+        - chmod 644 ~/.ssh/known_hosts
+        - ssh -T git@github.com || ":"
+        - git remote add mirror git@github.com:Taskeren/taskeren-github-repository.git
+        - git reset HEAD --hard
+        - git checkout master && git push mirror master
+
+    rules:
+        - if: '$CI_COMMIT_REF_NAME == "master" && $CI_PIPELINE_SOURCE == "PUSH"'
+          when: always
+        - if: '$CI_COMMIT_REF_NAME == "master" && $CI_PIPELINE_SOURCE == "web"'
+          when: always
