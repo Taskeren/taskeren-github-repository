@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "cn.taskeren.explode3",
+    "module": "caretaker",
+    "version": "1.3.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "caretaker-1.3.0-SNAPSHOT.jar",
+          "url": "caretaker-1.3.0-SNAPSHOT.jar",
+          "size": 3172915,
+          "sha512": "a616af78130cf3ec0ef6fc6960d4cf134beda61134eb570a8a5d1792f760e56184bfd203b5833e3c17d05e2cdfe57f9a8c6046d27a21f75e1e6a0d29f91638a8",
+          "sha256": "dd57e362a7480c397007e4a6760f76b894d530b590dc8ae35a6301a9e5c44949",
+          "sha1": "0a0116b850eea3b95c049ff7482891d3f041eb69",
+          "md5": "c4ee7735a22a7200a3b2f1c4f5f1a8e0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "caretaker-1.3.0-SNAPSHOT.jar",
+          "url": "caretaker-1.3.0-SNAPSHOT.jar",
+          "size": 3172915,
+          "sha512": "a616af78130cf3ec0ef6fc6960d4cf134beda61134eb570a8a5d1792f760e56184bfd203b5833e3c17d05e2cdfe57f9a8c6046d27a21f75e1e6a0d29f91638a8",
+          "sha256": "dd57e362a7480c397007e4a6760f76b894d530b590dc8ae35a6301a9e5c44949",
+          "sha1": "0a0116b850eea3b95c049ff7482891d3f041eb69",
+          "md5": "c4ee7735a22a7200a3b2f1c4f5f1a8e0"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "caretaker-1.3.0-SNAPSHOT-javadoc.jar",
+          "url": "caretaker-1.3.0-SNAPSHOT-javadoc.jar",
+          "size": 73574,
+          "sha512": "06b5e0f173749a044834d289daf2ee2abbcc2866dda876c571e1ac73171666162205ae91d03aabeacba5631d4185c0de82676755a3cc69e285b85de8a8abf516",
+          "sha256": "6c5858c469c268fab1f0dd0da6670dfb67d7e8c4decbb1089f58a73ecdd97fc1",
+          "sha1": "5e520fe87d2581939df41b80e6a9f768e5b7da60",
+          "md5": "5df326ce7b92abfe78e556804ae35195"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "caretaker-1.3.0-SNAPSHOT-sources.jar",
+          "url": "caretaker-1.3.0-SNAPSHOT-sources.jar",
+          "size": 3636,
+          "sha512": "f19ab80a03cad8e94229ce8f4ee283e88a7f4445139fdf4a1ebc0dc1df14d2fd73db1f522095c3ca1c88084e5c4992bfaa50b9fcde6b945f2cad3af485e550bd",
+          "sha256": "d5152c0656ff99451bbb55827fed5924553a7b795967d0100e0c6eb0cb591333",
+          "sha1": "d699527820d9db5241bd17980646e71803ba17a6",
+          "md5": "68b847c97115ea74754b435ab1d60ed3"
+        }
+      ]
+    }
+  ]
+}

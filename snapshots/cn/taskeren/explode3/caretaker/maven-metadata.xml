@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>cn.taskeren.explode3</groupId>
+  <artifactId>caretaker</artifactId>
+  <versioning>
+    <latest>1.3.0-SNAPSHOT</latest>
+    <versions>
+      <version>1.0.0-SNAPSHOT</version>
+      <version>1.1.0-SNAPSHOT</version>
+      <version>1.3.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20231023135705</lastUpdated>
+  </versioning>
+</metadata>
