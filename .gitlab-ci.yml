@@ -2,7 +2,7 @@ image: node:alpine
 
 mirror:
     before_script:
-        - "which ssh-agent || (apk update && apk openssh-client git)"
+        - "which ssh-agent || (apk update && apk add openssh-client git)"
 
     script:
         - eval $(ssh-agent -s)
